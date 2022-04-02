@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "perfect-crud",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/PerfectlySoft/Perfect-CRUD.git",
+      "state" : {
+        "revision" : "71c445eaaa94e5ce634aa11a6a1aa6544e786307",
+        "version" : "2.0.0"
+      }
+    },
+    {
+      "identity" : "perfect-sqlite",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RockfordWei/Perfect-SQLite",
+      "state" : {
+        "branch" : "iOS",
+        "revision" : "645f33326bf392d6621571d06e4244da7de59b0a"
+      }
+    }
+  ],
+  "version" : 2
+}
