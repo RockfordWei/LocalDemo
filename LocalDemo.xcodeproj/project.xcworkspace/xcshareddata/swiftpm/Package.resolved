@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/RockfordWei/Perfect-SQLite",
       "state" : {
-        "branch" : "iOS",
-        "revision" : "645f33326bf392d6621571d06e4244da7de59b0a"
+        "revision" : "069da90b4a6736392fa04013dddcdb6991362e6a",
+        "version" : "5.1.0"
       }
     }
   ],
