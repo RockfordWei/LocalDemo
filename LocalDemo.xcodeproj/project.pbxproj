@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		319EFF3F27F88C6600EEA606 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFF3E27F88C6600EEA606 /* Model.swift */; };
 		319EFF4527F895C900EEA606 /* records.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 319EFF4427F895C900EEA606 /* records.sqlite */; };
-		319EFF4727F89DE100EEA606 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 319EFF4627F89DE100EEA606 /* README.md */; };
 		319EFF4D27FB229A00EEA606 /* PerfectSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 319EFF4C27FB229A00EEA606 /* PerfectSQLite */; };
 		31AE541527F8892500044625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE541427F8892500044625 /* AppDelegate.swift */; };
 		31AE541927F8892500044625 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE541827F8892500044625 /* ViewController.swift */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		319EFF3E27F88C6600EEA606 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		319EFF4427F895C900EEA606 /* records.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = records.sqlite; sourceTree = "<group>"; };
-		319EFF4627F89DE100EEA606 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		31AE541127F8892500044625 /* LocalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AE541427F8892500044625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31AE541827F8892500044625 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 				319EFF4427F895C900EEA606 /* records.sqlite */,
 				31AE541F27F8892600044625 /* LaunchScreen.storyboard */,
 				31AE542227F8892600044625 /* Info.plist */,
-				319EFF4627F89DE100EEA606 /* README.md */,
 			);
 			path = LocalDemo;
 			sourceTree = "<group>";
@@ -141,7 +138,6 @@
 			files = (
 				319EFF4527F895C900EEA606 /* records.sqlite in Resources */,
 				31AE542127F8892600044625 /* LaunchScreen.storyboard in Resources */,
-				319EFF4727F89DE100EEA606 /* README.md in Resources */,
 				31AE541E27F8892600044625 /* Assets.xcassets in Resources */,
 				31AE541C27F8892500044625 /* Main.storyboard in Resources */,
 			);
