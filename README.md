@@ -1,3 +1,3 @@
 # Perfect-CRUD iOS Demo
 
-<img src="demo.gif" />
+<img src="demo.gif" width="60%" />
