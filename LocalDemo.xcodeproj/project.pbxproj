@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		319EFF3F27F88C6600EEA606 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EFF3E27F88C6600EEA606 /* Model.swift */; };
 		319EFF4527F895C900EEA606 /* records.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 319EFF4427F895C900EEA606 /* records.sqlite */; };
-		319EFF4D27FB229A00EEA606 /* PerfectSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 319EFF4C27FB229A00EEA606 /* PerfectSQLite */; };
+		31A8A14227FCB17F00A2470C /* PerfectSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 31A8A14127FCB17F00A2470C /* PerfectSQLite */; };
 		31AE541527F8892500044625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE541427F8892500044625 /* AppDelegate.swift */; };
 		31AE541927F8892500044625 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE541827F8892500044625 /* ViewController.swift */; };
 		31AE541C27F8892500044625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AE541A27F8892500044625 /* Main.storyboard */; };
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				319EFF4D27FB229A00EEA606 /* PerfectSQLite in Frameworks */,
+				31A8A14227FCB17F00A2470C /* PerfectSQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 			);
 			name = LocalDemo;
 			packageProductDependencies = (
-				319EFF4C27FB229A00EEA606 /* PerfectSQLite */,
+				31A8A14127FCB17F00A2470C /* PerfectSQLite */,
 			);
 			productName = LocalDemo;
 			productReference = 31AE541127F8892500044625 /* LocalDemo.app */;
@@ -120,7 +120,7 @@
 			);
 			mainGroup = 31AE540827F8892500044625;
 			packageReferences = (
-				319EFF4B27FB229A00EEA606 /* XCRemoteSwiftPackageReference "Perfect-SQLite" */,
+				31A8A14027FCB17F00A2470C /* XCRemoteSwiftPackageReference "Perfect-SQLite" */,
 			);
 			productRefGroup = 31AE541227F8892500044625 /* Products */;
 			projectDirPath = "";
@@ -374,20 +374,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		319EFF4B27FB229A00EEA606 /* XCRemoteSwiftPackageReference "Perfect-SQLite" */ = {
+		31A8A14027FCB17F00A2470C /* XCRemoteSwiftPackageReference "Perfect-SQLite" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RockfordWei/Perfect-SQLite";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 5.1.0;
+				minimumVersion = 5.1.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		319EFF4C27FB229A00EEA606 /* PerfectSQLite */ = {
+		31A8A14127FCB17F00A2470C /* PerfectSQLite */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 319EFF4B27FB229A00EEA606 /* XCRemoteSwiftPackageReference "Perfect-SQLite" */;
+			package = 31A8A14027FCB17F00A2470C /* XCRemoteSwiftPackageReference "Perfect-SQLite" */;
 			productName = PerfectSQLite;
 		};
 /* End XCSwiftPackageProductDependency section */
